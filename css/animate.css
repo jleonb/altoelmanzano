@@ -2255,7 +2255,7 @@ Copyright (c) 2014 Daniel Eden
 
 .animSpeed02,.animSpeed02-hvr{
    -webkit-animation-duration:0.2s;
-    animation-duration:0.2s; 
+    animation-duration:0.2s;
 }
 .animSpeed04,.animSpeedFast,.animSpeed04-hvr,.animSpeedFast-hvr{
     -webkit-animation-duration:0.4s;
@@ -2263,11 +2263,11 @@ Copyright (c) 2014 Daniel Eden
 }
 .animSpeed06,.animSpeed06-hvr{
    -webkit-animation-duration:0.6s;
-    animation-duration:0.6s; 
+    animation-duration:0.6s;
 }
 .animSpeed08,.animSpeed08-hvr{
    -webkit-animation-duration:0.8s;
-    animation-duration:0.8s; 
+    animation-duration:0.8s;
 }
 .animSpeed2,.animSpeed2-hvr{
     -webkit-animation-duration:1s;
@@ -2275,15 +2275,15 @@ Copyright (c) 2014 Daniel Eden
 }
 .animSpeed3,.animSpeedLazy,.animSpeed3-hvr,.animSpeedLazy-hvr{
    -webkit-animation-duration:2s;
-    animation-duration:2s; 
+    animation-duration:2s;
 }
 .animSpeed5,.animSpeedSlow,.animSpeed5-hvr,.animSpeedSlow-hvr{
    -webkit-animation-duration:5s;
-    animation-duration:5s; 
+    animation-duration:5s;
 }
 .animSpeed10,.animSpeed10-hvr{
    -webkit-animation-duration:10s;
-    animation-duration:10s; 
+    animation-duration:10s;
 }
 
 /*
@@ -2292,7 +2292,7 @@ Copyright (c) 2014 Daniel Eden
 
 .animDelay02,.animDelay02-hvr{
    -webkit-animation-delay:0.2s;
-    animation-delay:0.2s; 
+    animation-delay:0.2s;
 }
 .animDelay04,.animDelay04-hvr{
     -webkit-animation-delay:0.4s;
@@ -2300,11 +2300,11 @@ Copyright (c) 2014 Daniel Eden
 }
 .animDelay06,.animDelay06-hvr{
    -webkit-animation-delay:0.6s;
-    animation-delay:0.6s; 
+    animation-delay:0.6s;
 }
 .animDelay08,.animDelay08-hvr{
    -webkit-animation-delay:0.8s;
-    animation-delay:0.8s; 
+    animation-delay:0.8s;
 }
 .animDelay1,.animDelay-hvr{
     -webkit-animation-delay:1s;
@@ -2312,7 +2312,7 @@ Copyright (c) 2014 Daniel Eden
 }
 .animDelay2,.animDelay2-hvr{
    -webkit-animation-delay:2s;
-    animation-delay:2s; 
+    animation-delay:2s;
 }
 
 /*

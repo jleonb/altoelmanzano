@@ -27,8 +27,8 @@
   transition-property: transform;
 }
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /* Shrink */
@@ -2532,7 +2532,8 @@
   left: 0;
   right: 100%;
   top: 0;
-  background: rgb(84,84,84);
+  /*background: rgb(84,84,84);*/
+  background:rgb(197,31,34);
   height: 2px;
   -webkit-transition-property: right;
   transition-property: right;

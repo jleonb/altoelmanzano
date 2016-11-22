@@ -2,7 +2,7 @@
 <html>
 <head>
     <!-- @include head.kit -->
-  <meta name="description" content="">
+  <meta name="description" content="La vista 360° te permite entrar y recorrer todos los rincones de tu próxima casa.">
   <title>Tour 360 | Alto El Manzano</title>
 
 </head>
@@ -20,12 +20,19 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<h1 class="text-center  mg-lg">
-					Tour 360
+					TOUR 360 CONDOMINIO ECOMAITENES
 				</h1>
-				<h4 class="text-center descripcion mg-lg">
+        <!-- @include separador.kit -->
+				<p class="text-center descripcion mg-lg">
 					La vista 360° te permite entrar y recorrer todos los rincones de tu próxima casa. <br>¡Qué estás esperando, haz click y disfrútala ya!
-				</h4><img src="img/placeholder-image.png" class="img-responsive" />
-			</div>
+				</p>
+        <script src="tour/tour.js"></script>
+          <div id="pano">
+            <script>
+              embedpano({swf:"tour/tour.swf", xml:"tour/tour.xml", target:"pano", html5:"prefer", mwheel:false, focus:false, passQueryParameters:true});
+            </script>
+          </div>
+      </div>
 		</div>
 	</div>
 </div>
@@ -33,16 +40,22 @@
 
 <!-- bloc-11 -->
 <div class="bloc bgc-white l-bloc" id="bloc-11">
-	<div class="container bloc-mg">
+	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12">
 				<h1 class="text-center  mg-lg">
-					Masterplan
+					MASTERPLAN
 				</h1>
+        <!-- @include separador.kit -->
 				<p class="text-center descripcion mg-lg">
 					Nuestro nuevo plan de desarrollo contempla el potencial del terreno, fortaleciendo una identidad propia y sustentable. <br>Privilegiando la vida al aire libre, el contacto con la naturaleza, aprovechando quebradas, topografía del proyecto y <br>espacios comunes de calidad.<br>
 				</p>
-        <img src="img/placeholder-image.png" class="img-responsive" />
+        <script src="masterplan/tour.js"></script>
+          <div id="pano2">
+            <script>
+                embedpano({swf:"masterplan/tour.swf", xml:"masterplan/tour.xml", target:"pano2", html5:"prefer", mwheel:false, focus:false, passQueryParameters:true});
+              </script>
+          </div>
 			</div>
 		</div>
 	</div>
@@ -53,9 +66,6 @@
   <!-- @include newsletter.kit -->
 <!-- bloc-12 END -->
 
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
 
 
 <!-- @include footer.kit -->
@@ -63,6 +73,7 @@
 </div>
 <!-- Main container END -->
 
-
+<!-- @include analytics.kit -->
+<!-- @include javascript -->
 </body>
 </html>

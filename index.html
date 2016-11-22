@@ -3,21 +3,20 @@
 <head>
 
     <meta charset="utf-8">
-<meta name="keywords" content="">
+<meta name="keywords" content="proyecto inmobiliario Til Til, tranquilidad, aire limpio, naturaleza, calidad de vida, aire limpio, al lado de Santiago,
+casas cómodas, barrio joven, hogar zona norte, entorno natural, vida de barrio, alto el manzano, casa jazz, casa pinova, casa ambrosia, casa newtown,
+ecomaitenes, coterráneo, grupo hispano">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 
 
-<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-<link rel="stylesheet" href="./css/animate.css">
-<link rel="stylesheet" href="./css/font-awesome.min.css">
-<link rel="stylesheet" href="./css/hover.css">
-<!-- <link rel="stylesheet" href="./css/suscribe.css"> -->
-<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"  async defer>
+<link rel="stylesheet" href="./css/animate.min.css"  async defer>
+<link rel="stylesheet" href="./css/font-awesome.min.css" async defer>
+<link rel="stylesheet" href="./css/hover.min.css" async defer>
+<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,latin-ext' rel='stylesheet' type='text/css' async defer>
+<link rel="stylesheet" type="text/css" href="style.min.css" async defer>
 
 
-<script src="./js/jquery-2.1.0.js"></script>
-<script src="./js/bootstrap.js"></script>
-<script src="./js/blocs.js"></script>
 
 <!-- FAVICON -->
 <link rel="apple-touch-icon" sizes="180x180" href="favicono/apple-touch-icon.png">
@@ -29,10 +28,8 @@
 <meta name="msapplication-config" content="favicono/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 <!-- FAVICON -->
-
-<link rel="stylesheet" type="text/css" href="style.min.css">
-    <meta name="description" content="">
-    <title>Inicio | Alto El Manzano</title>
+    <meta name="description" content="Alto El Manzano es el nuevo gran proyecto inmobiliario del norte de Santiago, ubicado en Til Til, a sólo 20 minutos de todo. La belleza del entorno natural, la tranquilidad de sus espacios y la privilegiada vista de los cerros, te cautivarán.">
+    <title>Alto El Manzano ¡Es más vida!</title>
 
 
 </head>
@@ -45,7 +42,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" width="330" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo" width="300" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -58,9 +55,9 @@
 					<li>
 						<a href="tour-360.html" class="hvr-overline-from-left">Tour 360</a>
 					</li>
-					<li>
+					<!-- <li>
 						<a href="oportunidades.html" class="hvr-overline-from-left">Oportunidades</a>
-					</li>
+					</li> -->
 					<li>
 						<a href="financiamiento.html" class="hvr-overline-from-left">Financiamiento</a>
 					</li>
@@ -77,12 +74,21 @@
 </div>
 <!-- bloc-0 END -->
 
+<!-- <div class="video-responsive">
+  <video class="video" muted="muted" loop="loop" autoplay="autoplay">
+  <source src="vid/video480_2.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+  </video>
+
+<canvas class="canvas"></canvas> -->
+
+</div>
 <!-- bloc-1 -->
-<div class="bloc l-bloc bgc-white bloc-fill-screen" id="bloc-1">
+<div class="bloc l-bloc bgc-white bloc-fill-screen desktop" id="bloc-1">
 	<div class="video-bg-container">
-		<video class="bloc-video" preload="auto" loop="loop" autoplay="autoplay">
-			<source src="vid/video720.mp4" type="video/mp4" />
-		</video>
+      <video class="bloc-video" preload="auto" loop="loop" autoplay="autoplay">
+  			<source src="vid/1080.mp4" type="video/mp4" />
+  		</video>
 	</div>
 	<div class="container">
 		<div class="row">
@@ -91,17 +97,21 @@
 		</div>
 	</div>
 </div>
+
+<div class="video-movil">
+  <a href="vid/1080.mp4"><img src="img/video.jpg" alt="img" class="img-responsive center-block"></a>
+</div>
 <!-- bloc-1 END -->
 
 <!-- bloc-2 -->
 <div class="bloc tc-davys-grey bgc-white" id="bloc-2">
-	<div class="container bloc-lg">
+	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
-				<h2 class="text-center mg-lg  tc-davys-grey titulo">
-					<strong>Tu próximo hogar</strong>
-          <span class="linea"></span>
-        </h2>
+				<h1 class="text-center mg-md  tc-davys-grey desktop">
+					<strong>TU PRÓXIMO HOGAR</strong>
+        		</h1>
+        		<img src="img/linea.jpg" alt="img" class="img-responsive center-block mg-md">
 
 				<p class=" text-justify descripcion">
 					Alto El Manzano es el nuevo gran proyecto inmobiliario del norte de Santiago, ubicado en Til Til, a sólo 20 minutos de todo. La belleza del entorno natural, la tranquilidad de sus espacios y la privilegiada vista de los cerros, te cautivarán. <br> <br>Nuestros barrios incorporan una moderna urbanización en espacios públicos, rodeados de naturaleza y portería las 24 horas con control de acceso. Casas de hermosa arquitectura mediterránea, tecnología térmica certificada y cuidadas áreas verdes.<br><br>
@@ -112,94 +122,116 @@
 </div>
 <!-- bloc-2 END -->
 
-<!-- bloc-3 -->
-<div class="bloc tc-onyx bgc-white" id="bloc-3">
-	<div class="container bloc-md">
+<!-- CASA JAZZ Y NEWTOWN -->
+<div class="bloc tc-onyx bg-gray" id="bloc-3">
+	<div class="container bloc-sm2">
 		<div class="row">
-			<div class="col-sm-6">
-				<a href="jazz.html"><img src="img/jazz00.jpg" class="img-responsive mg-sm center-block" /></a>
-				<h3 class="mg-md tc-onyx">
-					Jazz
+			<div class="col-sm-6 intercalado">
+				<a href="jazz.html"><img src="img/inicio/jazz.jpg" class="img-responsive mg-sm center-block" /></a>
+				<h3 class="mg-md tc-davys-grey">
+					JAZZ
 				</h3>
-        <a href="jazz.html"><img src="img/JAZZ-01.jpg" class="img-responsive mg-md center-block" /></a>
-				<p class=" mg-lg">
-					Hermosa casa mediterránea de volúmenes puros que se interconectan logrando un lenguaje limpio y moderno.
+        <a href="jazz.html"><img src="img/inicio/jazz-p.jpg" class="img-responsive mg-md center-block" /></a>
+				<p class=" mg-lg text-justify">
+					Hermosa casa estilo mediterráneo, porche cubierto, amplios recintos, luminosa sala de estar con ventana bow window y salida a terraza en segundo piso .
 				</p>
-
-          <h4 class="mg-sm tc-davys-grey">
-					  <a href="jazz.html"><span class="fa fa-eye"></span> Conocer</a>
-				  </h4>
-
-
-          <h4 class="mg-md tc-davys-grey">
-					  <a href="financiamiento.html#bloc-20"><span class="fa fa-pencil-square-o"></span> Cotizar</a>
-				  </h4>
-
+        <!-- BOTONES -->
+        <div class="row">
+          <div class="col-xs-6 text-center">
+            <a href="jazz.html" class="btn   btn-block btn-davys-grey btn-lg">
+              <strong>CONOCER</strong> <span class="fa fa-eye icon-spacer icon-white"></span>
+            </a>
+          </div>
+          <div class="col-xs-6 text-center">
+            <a href="financiamiento.html#bloc-20" class="btn   btn-block btn-davys-grey btn-lg">
+              <strong>COTIZAR</strong> <span class="fa fa-edit icon-spacer icon-white"></span>
+            </a>
+          </div>
+        </div>
+        <!-- FIN BOTONES -->
 			</div>
+      <!-- CASA NEWTOWN -->
 			<div class="col-sm-6">
-				<a href="newtown.html"><img src="img/newtown00.jpg" class="img-responsive mg-sm center-block" /></a>
-				<h3 class="mg-md tc-onyx">
-					Newtown
+				<a href="newtown.html"><img src="img/inicio/newtown.jpg" class="img-responsive mg-sm center-block" /></a>
+				<h3 class="mg-md tc-davys-grey">
+					NEWTOWN
 				</h3>
-        <a href="newtown.html"><img src="img/NEWTON-01.jpg" class="img-responsive mg-md center-block" /></a>
-				<p class=" mg-lg">
-					Proin risus turpis, pulvinar iaculis urna eget, hendrerit congue nunc. Cras eu mauris justo.
+        <a href="newtown.html"><img src="img/inicio/newtown-p.jpg" class="img-responsive mg-md center-block" /></a>
+				<p class=" mg-lg text-justify">
+					Estilo mediterráneo, hermosa fachada con acceso doble altura y ventanal que ilumina espacio de escalera, sala de estar con salida a terraza en segundo piso.
 				</p>
-
-          <h4 class="mg-sm tc-davys-grey">
-					  <a href="newtown.html"><span class="fa fa-eye"></span> Conocer</a>
-				  </h4>
-
-
-          <h4 class="mg-md tc-davys-grey">
-					  <a href="financiamiento.html#bloc-20"><span class="fa fa-edit"></span> Cotizar</a>
-				  </h4>
-
+        <!-- BOTONES -->
+        <div class="row">
+          <div class="col-xs-6 text-center">
+            <a href="newtown.html" class="btn   btn-block btn-davys-grey btn-lg">
+              <strong>CONOCER</strong> <span class="fa fa-eye icon-spacer icon-white"></span>
+            </a>
+          </div>
+          <div class="col-xs-6 text-center">
+            <a href="financiamiento.html#bloc-20" class="btn   btn-block btn-davys-grey btn-lg">
+              <strong>COTIZAR</strong> <span class="fa fa-edit icon-spacer icon-white"></span>
+            </a>
+          </div>
+        </div>
+        <!-- FIN BOTONES -->
 			</div>
 		</div>
 	</div>
 </div>
 <!-- bloc-3 END -->
 
-<!-- bloc-4 -->
+<!-- CASA PINOVA Y AMBROSÍA -->
 <div class="bloc tc-onyx bgc-white" id="bloc-4">
 	<div class="container bloc-md">
 		<div class="row">
-			<div class="col-sm-6">
-				<a href="pinova.html"><img src="img/pinova00.jpg" class="img-responsive mg-sm center-block" /></a>
-				<h3 class="mg-md tc-onyx">
-					Pinova
+      <div class="col-sm-6 intercalado">
+				<a href="pinova.html"><img src="img/inicio/pinova-b.jpg" class="img-responsive mg-sm center-block" /></a>
+				<h3 class="mg-md tc-davys-grey">
+					PINOVA
 				</h3>
-        <a href="pinova.html"><img src="img/PINOVA-01.jpg" class="img-responsive mg-md center-block" /></a>
+        <a href="pinova.html"><img src="img/inicio/pinova-p.jpg" class="img-responsive mg-md center-block" /></a>
 				<p class=" mg-lg">
-					Proin risus turpis, pulvinar iaculis urna eget, hendrerit congue nunc. Cras eu mauris justo. Vivamus gravida scelerisque lobortis.
+					Estilo mediterráneo, de líneas simples y modernas, luminoso y amplio hall de acceso, con posibilidad de futura ampliación.
 				</p>
-
-          <h4 class="mg-sm tc-davys-grey">
-					  <a href="pinova.html"><span class="fa fa-eye"></span> Conocer</a>
-				  </h4>
-
-
-          <h4 class="mg-md tc-davys-grey">
-					  <a href="financiamiento.html#bloc-20"><span class="fa fa-edit"></span> Cotizar</a>
-				  </h4>
-
+        <!-- BOTONES -->
+        <div class="row">
+          <div class="col-xs-6 text-center">
+            <a href="pinova.html" class="btn   btn-block btn-davys-grey btn-lg">
+              <strong>CONOCER</strong> <span class="fa fa-eye icon-spacer icon-white"></span>
+            </a>
+          </div>
+          <div class="col-xs-6 text-center">
+            <a href="financiamiento.html#bloc-20" class="btn   btn-block btn-davys-grey btn-lg">
+              <strong>COTIZAR</strong> <span class="fa fa-edit icon-spacer icon-white"></span>
+            </a>
+          </div>
+        </div>
+        <!-- FIN BOTONES -->
 			</div>
-			<div class="col-sm-6">
-				<a href="ambrosia.html"><img src="img/ambrosia00.jpg" class="img-responsive mg-sm center-block" /></a>
-				<h3 class="mg-md tc-onyx">
-					Ambrosía
+      <!-- CASA AMBROSÍA -->
+      <div class="col-sm-6">
+				<a href="ambrosia.html"><img src="img/inicio/ambrosia-b.jpg" class="img-responsive mg-sm center-block" /></a>
+				<h3 class="mg-md tc-davys-grey">
+					AMBROSÍA
 				</h3>
-        <a href="ambrosia.html"><img src="img/AMBROSIA%202.jpg" class="img-responsive mg-md center-block" /></a>
+        <a href="ambrosia.html"><img src="img/inicio/ambrosia-p.jpg" class="img-responsive mg-md center-block" /></a>
 				<p class=" mg-lg">
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+					Estilo mediterráneo, de líneas simples y modernas, amplios dormitorios y cocina con posibilidad de ampliación.
 				</p>
-				<a href="ambrosia.html"><h4 class="mg-sm">
-					<span class="fa fa-eye"></span> Conocer
-				</h4></a>
-				<a href="financiamiento.html#bloc-20"><h4 class="mg-md">
-					<span class="fa fa-edit"></span> Cotizar
-				</h4></a>
+        <!-- BOTONES -->
+        <div class="row">
+          <div class="col-xs-6 text-center">
+            <a href="ambrosia.html" class="btn   btn-block btn-davys-grey btn-lg">
+              <strong>CONOCER</strong> <span class="fa fa-eye icon-spacer icon-white"></span>
+            </a>
+          </div>
+          <div class="col-xs-6 text-center">
+            <a href="financiamiento.html#bloc-20" class="btn   btn-block btn-davys-grey btn-lg">
+              <strong>COTIZAR</strong> <span class="fa fa-edit icon-spacer icon-white"></span>
+            </a>
+          </div>
+        </div>
+        <!-- FIN BOTONES -->
 			</div>
 		</div>
 	</div>
@@ -207,7 +239,7 @@
 <!-- bloc-4 END -->
 
 <!-- bloc-5 -->
-<div class="bloc bgc-white bg-naturaleza d-bloc b-parallax" id="bloc-5">
+<div class="bloc bgc-white bg-naturaleza d-bloc b-parallax" id="naturaleza">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
@@ -215,7 +247,7 @@
 					<strong>NATURALEZA</strong>
 				</h1>
 				<h3 class="mg-md text-center tc-white fadeInUp animated">
-					"Disfrutar de la naturaleza y respirar el aire puro de Alto El Manzano, es impagable" <br> <br>Andrea Hernández, 30 años.
+					"Disfrutar de la naturaleza y respirar el aire puro de Alto El Manzano, es impagable"<br>Andrea Hernández, 30 años.
 				</h2>
 			</div>
 		</div>
@@ -229,36 +261,37 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<h1 class="text-center  mg-lg tc-davys-grey">
-					<strong>La vida en Alto El Manzano</strong>
+					<strong>LA VIDA EN ALTO EL MANZANO</strong>
 				</h1>
-				<h4 class="text-center  tc-davys-grey mg-lg">
-					En Alto El Manzano existe una serie de comodidades y beneficios dificiles de obtener en otro lugar<br>
-				</h4>
+        <img src="img/linea.jpg" alt="img" class="img-responsive center-block mg-md">
+				<p class="text-center  tc-davys-grey mg-lg justify descripcion">
+					Alto El Manzano tiene una serie de comodidades y beneficios dificiles de obtener en otro lugar.<br>
+				</p>
 			</div>
 		</div>
-		<div class="row voffset">
+		<div class="row voffset" id="features">
 			<div class="col-sm-4 zoomIn  animated">
-				<span class="fa fa-pencil fa-3x pull-left"></span><br><br>
+				<span class="fa fa-pencil fa-3x pull-left ic-verde"></span><br><br>
 				<h3 class="mg-md">
-					Educación
+					EDUCACIÓN
 				</h3>
 				<p>
 					Saint Louis School es un proyecto educativo particular-subvencionado, ubicado a sólo pasos del condominio.
 				</p>
 			</div>
 			<div class="col-sm-4 zoomIn animated">
-				<span class="fa fa-heart fa-3x pull-left"></span><br><br>
+				<span class="fa fa-heart fa-3x pull-left ic-verde"></span><br><br>
 				<h3 class="mg-md">
-					Vida Sana
+					VIDA SANA
 				</h3>
 				<p>
 					La excelente calidad del aire brinda oportunidades únicas para los amantes de la vida sana, el deporte y el Wellness.
 				</p>
 			</div>
 			<div class="col-sm-4 zoomIn animated">
-				<span class="fa fa-leaf fa-3x  pull-left"></span> <br><br>
+				<span class="fa fa-leaf fa-3x  pull-left ic-verde"></span> <br><br>
 				<h3 class="mg-md">
-					Naturaleza
+					NATURALEZA
 				</h3>
 				<p class="text-justify ">
 					Su inolvidable paisaje escénico invita a paseos familiares por hermosas y extensas áreas verdes que te cautivarán.
@@ -267,27 +300,27 @@
 		</div>
 		<div class="row voffset">
 			<div class="col-sm-4 zoomIn animated">
-				<span class="fa fa-car fa-3x pull-left"></span> <br><br>
+				<span class="fa fa-car fa-3x pull-left ic-verde"></span> <br><br>
 				<h3 class="mg-md">
-					Conectividad
+					CONECTIVIDAD
 				</h3>
 				<p>
 					¡Estamos a sólo veinte minutos de todo!
 				</p>
 			</div>
 			<div class="col-sm-4 zoomIn animated">
-				<span class="fa fa-thumbs-up fa-3x pull-left"></span><br><br>
+				<span class="fa fa-thumbs-up fa-3x pull-left ic-verde"></span><br><br>
 				<h3 class="mg-md">
-					Seguridad
+					SEGURIDAD
 				</h3>
 				<p>
 					Condominios cerrados y control de acceso las 24 horas.
 				</p>
 			</div>
 			<div class="col-sm-4 zoomIn animated">
-				<span class="fa fa-futbol-o fa-3x pull-left"></span><br><br>
+				<span class="fa fa-futbol-o fa-3x pull-left ic-verde"></span><br><br>
 				<h3 class="mg-md">
-					Deportes
+					DEPORTES
 				</h3>
 				<p>
 					Canchas de fútbol profesionales, senderos para trekking, mountain bike y motocross.
@@ -299,16 +332,16 @@
 <!-- bloc-6 END -->
 
 <!-- bloc-7 -->
-<div class="bloc bgc-white b-parallax bg-casas d-bloc" id="bloc-7">
+<div class="bloc bgc-white b-parallax bg-casas d-bloc" id="comodidad">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="text-center tc-white mg-md fadeInUp animated">
+				<h1 class="text-center tc-white mg-lg fadeInUp animated">
 					<strong>COMODIDAD</strong>
 				</h1>
-				<h3 class="mg-md text-center tc-white fadeInUp animated">
-					"Como los dos trabajamos, es una gran ayuda que el colegio de nuestros hijos esté a pasos de casa" <br> <br>María Paz Aguirre, 33 años.
-				</h3>
+				<p class="mg-md text-center tc-white fadeInUp animated">
+					"Como los dos trabajamos, es una gran ayuda que el colegio de nuestros hijos esté a pasos de casa"<br>María Paz Aguirre, 33 años.
+				</p>
 			</div>
 		</div>
 	</div>
@@ -321,21 +354,22 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<h1 class="text-center tc-davys-grey mg-lg">
-					<strong>Nosotros</strong>
+					<strong>NOSOTROS</strong>
 				</h1>
+        <img src="img/linea.jpg" alt="img" class="img-responsive center-block mg-md">
 			</div>
 		</div>
 		<div class="row voffset">
 			<div class="col-sm-6">
-				<img src="img/somos_img-medium.jpg" class="img-responsive center-block" />
+				<img src="img/inicio/somos.jpg" class="img-responsive center-block" />
 			</div>
 			<div class="col-sm-6">
 				<h4 class="mg-md text-justify tc-davys-grey">
-					<strong>Hispano Chilena de Inversiones,</strong> visualizando el desarrollo de la Infraestructura vial y las tendencias de vigoroso desarrollo del sector norte de la ciudad, ha sido impulsora de proyectos con visión de futuro, tales como <strong>Ciudad Empresarial en Huechuraba, Piedra Roja en Colina y Alto el manzano en TilTil.</strong> <br> <br>
+					<strong>Hispano Chilena de Inversiones,</strong> visualizando el desarrollo de la Infraestructura vial y las tendencias de vigoroso desarrollo del sector norte de la ciudad, ha sido impulsora de proyectos con visión de futuro, tales como <strong>Ciudad Empresarial en Huechuraba, Piedra Roja en Colina y Alto el manzano en Til Til.</strong> <br> <br>
           El terreno, que cuenta con una ubicación privilegiada y que se encuentra a minutos de la ciudad, está rodeado de naturaleza y de preciosas vistas a la cordillera. <br> <br>
           Sin duda, uno de los aspectos más importantes, fue visualizar una zona con mejor calidad de aire y protegida, naturalmente, de la contaminación acústica y visual de la ciudad de Santiago; aspectos que hoy son altamente valorados por las familias que habitan en <strong>Alto el Manzano.</strong>
 				</h4>
-        <img src="img/logos-01.png" class="img-responsive center-block" width="500" />
+        <img src="img/inicio/somos_logos.png" class="img-responsive center-block" width="450" />
 				<p>
 					<br>
 				</p>
@@ -346,17 +380,33 @@
 <!-- bloc-8 END -->
 
 <!-- bloc-9 -->
-  <div class="bloc bgc-white b-parallax bg-subscribe-bg d-bloc" id="bloc-9">
+  <div class="bloc bgc-white b-parallax bg-subscribe-bg d-bloc" id="newsletter">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 subscribe-area">
 				<h1 class="mg-md text-center tc-white fadeInUp animated">
 					<strong>REGÍSTRATE EN NUESTRO NEWSLETTER</strong>
 				</h1>
-				<h4 class="mg-md text-center tc-white  fadeInUp animated">
+				<p class="mg-md text-center tc-white  fadeInUp animated">
 					Regístrate en nuestro newsletter para estar al tanto de todas las novedades de Alto El Manzano.<br>
-				</h4>
-
+				</p>
+				<br>
+				<div class="row">
+					<div class="col-sm-8 col-md-offset-2 fadeInUp animated">
+						<form id="form_58" novalidate method="post" action="newsletter.php">
+							<div class="col-sm-8">
+								<div class="form-group newsletter">
+									<input class="form-control" id="email" name="email"/>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<button class="btn   btn-md bloc-button btn-block btn-davys-grey " type="submit" id="send_btn">
+									<span class="fa fa-paper-plane-o icon-spacer icon-white"></span>ENVIAR
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -364,7 +414,7 @@
 <!-- bloc-9 END -->
 
 <!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<!-- <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a> -->
 
 <!-- ScrollToTop Button END-->
 
@@ -373,53 +423,56 @@
 <div class="bloc bgc-onyx d-bloc" id="bloc-59">
 	<div class="container bloc-md">
 		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-sm-3">
+				<img src="img/logo_blanco.png" alt="logo" class="img-responsive center-block" width="70%">
+			</div>
+			<div class="col-sm-3">
 				<h4 class="mg-md">
 					CONTACTO
 				</h4>
 				<h5 class="mg-sm">
-					<span class="fa fa-map-marker fa-fw"></span> Kilómetro 35, Ruta 5 Norte
+					<a href="https://www.google.com/maps/place/Alto+El+Manzano/@-34.15013,-73.355187,7z/data=!4m5!3m4!1s0x0:0x7c04ab0ae360a98!8m2!3d-33.165967!4d-70.788506?hl=es-ES" target="_blank"><span class="fa fa-map-marker fa-fw"></span> Kilómetro 35, Ruta 5 Norte</a>
 				</h5>
 				<h5 class="mg-sm">
-					<span class="fa fa-envelope fa-fw"></span> altoelmanzano@altoelmanzano.cl
+					<a href="mailto:altoelmanzano@altoelmanzano.cl"><span class="fa fa-envelope fa-fw"></span> altoelmanzano@altoelmanzano.cl</a>
 				</h5>
 				<h5 class="mg-md">
-					<span class="fa fa-phone fa-fw"></span> +56 2 2243 7460
+					<a href="tel:+56222437460"><span class="fa fa-phone fa-fw"></span> +56 2 2243 7460</a>
 				</h5>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-3 ">
 				<h4 class="mg-md">
 					REDES SOCIALES
 				</h4>
 				<h5 class="mg-sm">
-					<span class="fa fa-facebook fa-fw"></span> Facebook
+					<!-- <a href="facebook.com" target="_blank"> --><span class="fa fa-facebook fa-fw"></span> Facebook<!-- </a> -->
 				</h5>
 				<h5 class="mg-md">
-					<span class="fa fa-twitter fa-fw"></span> Twitter
+					<!-- <a href="twitter.com"> --><span class="fa fa-twitter fa-fw"></span> Twitter<!-- </a> -->
 				</h5>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 				<h4 class="mg-md">
 					NAVEGACIÓN
 				</h4>
 				<h5 class="mg-sm">
-					<span class="fa fa-caret-right"></span> Inicio
+					<a href="index.html"><span class="fa fa-caret-right"></span> Inicio</a>
 				</h5>
 				<h5 class="mg-sm">
-					<span class="fa fa-caret-right"></span> Tour 360
+					<a href="tour-360.html"><span class="fa fa-caret-right"></span> Tour 360</a>
 				</h5>
 				<h5 class="mg-sm">
-					<span class="fa fa-caret-right"></span> Oportunidades
+					<a href="oportunidades.html"><span class="fa fa-caret-right"></span> Oportunidades</a>
 				</h5>
 				<h5 class="mg-sm">
-					<span class="fa fa-caret-right"></span> Financiamiento<br>
+					<a href="financiamiento.html"><span class="fa fa-caret-right"></span> Financiamiento</a>
 				</h5>
 				<h5 class="mg-sm">
-					<span class="fa fa-caret-right"></span> Entorno y Ubicación<br>
+					<a href="entorno-y-ubicacion.html"><span class="fa fa-caret-right"></span> Entorno y Ubicación</a>
 				</h5>
-				<h5 class="mg-sm">
-					<span class="fa fa-caret-right"></span> Noticias<br>
-				</h5>
+				<!-- <h5 class="mg-sm">
+					<a href="noticias.html"><span class="fa fa-caret-right"></span> Noticias</a>
+				</h5> -->
 			</div>
 		</div>
 	</div>
@@ -431,18 +484,70 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h4 class="mg-md text-center">
+				<h5 class="mg-md text-center">
 					Alto El Manzano 2016
-				</h4>
+				</h5>
 			</div>
 		</div>
 	</div>
 </div>
 <!-- Footer - bloc-60 END -->
 
+
+<script>
+    $('#send_btn').popover({content: 'Gracias!'},'click');
+</script>
+
 </div>
 <!-- Main container END -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-85210173-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<!-- CHAT -->
+<script>
+  (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+    t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+  })(window, document, '_gscq','script','//widgets.getsitecontrol.com/56570/script.js');
+</script>
 
 </body>
+<script async src="./js/jquery-2.1.0.min.js"></script>
+<script async src="./js/bootstrap.min.js"></script>
+<script async src="./js/blocs.min.js"></script>
+<script async src="./js/lightbox.min.js"></script>
+ 
+<script src="js/video-player.js"></script>
+<script>
+
+var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
+
+if (isIOS) {
+
+    var canvasVideo = new CanvasVideoPlayer({
+        videoSelector: '.video',
+        canvasSelector: '.canvas',
+        timelineSelector: false,
+        autoplay: true,
+        makeLoop: true,
+        pauseOnClick: false,
+        audio: false
+    });
+
+}else {
+
+    // Use HTML5 video
+    document.querySelectorAll('.canvas')[0].style.display = 'none';
+
+}
+
+</script>
 </html>
